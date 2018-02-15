@@ -4,6 +4,7 @@ Features:
  * C99/C++-style scoping rules (instead of JavaScript function scoping) take effect as experimental v0.5.0 feature.
  * Code Generator: Assert that ``k != 0`` for ``molmod(a, b, k)`` and ``addmod(a, b, k)`` as experimental 0.5.0 feature.
  * Type Checker: Disallow uninitialized storage pointers as experimental 0.5.0 feature.
+ * Inline Assembly: Enforce strict mode as experimental 0.5.0 feature.
 
 
 Bugfixes:
