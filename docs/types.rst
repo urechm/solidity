@@ -721,8 +721,8 @@ Members
 
         function setFlagPair(uint index, bool flagA, bool flagB) public {
             // access to a non-existing index will throw an exception
-            m_pairsOfFlags[index][0] = flagA;
-            m_pairsOfFlags[index][1] = flagB;
+            m_pairsOfFlags[0][index] = flagA;
+            m_pairsOfFlags[1][index] = flagB;
         }
 
         function changeFlagArraySize(uint newSize) public {
