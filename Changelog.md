@@ -6,6 +6,7 @@ Features:
 
 
 Bugfixes:
+ * Resolver: Properly determine shadowing for imports with aliases.
 
 
 ### 0.4.20 (2018-02-14)
